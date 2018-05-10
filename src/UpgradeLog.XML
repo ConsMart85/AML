@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="aml">
+</Property><Property Name="Solution File" Value="C:\Drivers\CCL\AllAML\aml.sln">
+</Property><Property Name="User Options File" Value="C:\Drivers\CCL\AllAML\aml.suo">
+</Property><Property Name="Date" Value="Friday, March 3, 2017">
+</Property><Property Name="Time" Value="12:31 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="aml.sln" Description="File successfully backed up as C:\Drivers\CCL\AllAML\aml.sln.old">
+</Event><Event ErrorLevel="0" Project="" Source="aml.suo" Description="File successfully backed up as C:\Drivers\CCL\AllAML\aml.suo.old">
+</Event><Event ErrorLevel="0" Project="aml" Source="AML\aml.vcproj" Description="Converting project file 'C:\Drivers\CCL\AllAML\AML\aml.vcproj'.">
+</Event><Event ErrorLevel="1" Project="aml" Source="AML\aml.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="1" Project="aml" Source="AML\aml.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="0" Project="aml" Source="AML\aml.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="aml" Source="AML\aml.vcproj" Description="MSB8012: $(TargetPath) ('C:\Drivers\CCL\AllAML\AML\.\Debug\aml.exe') does not match the Linker's OutputFile property value '.\Debug/aml.exe' ('C:\Drivers\CCL\AllAML\Debug/aml.exe') in project configuration 'Debug|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="1" Project="aml" Source="AML\aml.vcproj" Description="MSB8012: $(TargetPath) ('C:\Drivers\CCL\AllAML\AML\.\Release\aml.exe') does not match the Linker's OutputFile property value '.\Release/aml.exe' ('C:\Drivers\CCL\AllAML\Release/aml.exe') in project configuration 'Release|Win32'. This may cause your project to build incorrectly. To correct this, please make sure that $(TargetPath) property value matches the value specified in %(Link.OutputFile).">
+</Event><Event ErrorLevel="0" Project="aml" Source="AML\aml.vcproj" Description="Done converting to new project file 'C:\Drivers\CCL\AllAML\AML\aml.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="aml" Source="AML\aml.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\Test.vcproj" Description="Converting project file 'C:\Drivers\CCL\AllAML\Test\Test.vcproj'.">
+</Event><Event ErrorLevel="1" Project="Test" Source="Test\Test.vcproj" Description="This application has been updated to include settings related to the User Account Control (UAC) feature of Windows Vista. By default, when run on Windows Vista with UAC enabled, this application is marked to run with the same privileges as the process that launched it. This marking also disables the application from running with virtualization. You can change UAC related settings from the Property Pages of the project.">
+</Event><Event ErrorLevel="1" Project="Test" Source="Test\Test.vcproj" Description="VCWebServiceProxyGeneratorTool is no longer supported. The tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="Test" Source="Test\Test.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\Test.vcproj" Description="Web deployment to the local IIS server is no longer supported. The Web Deployment build tool has been removed from your project settings.">
+</Event><Event ErrorLevel="1" Project="Test" Source="Test\Test.vcproj" Description="Attribute 'Detect64BitPortabilityProblems' of 'VCCLCompilerTool' is not supported in this version and has been removed during conversion.">
+</Event><Event ErrorLevel="0" Project="Test" Source="Test\Test.vcproj" Description="Done converting to new project file 'C:\Drivers\CCL\AllAML\Test\Test.vcxproj'.">
+</Event><Event ErrorLevel="3" Project="Test" Source="Test\Test.vcproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="aml.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="aml.sln" Description="Converted">
+</Event></UpgradeLog>

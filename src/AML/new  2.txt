@@ -1,0 +1,53 @@
+
+	matrixd matTemp = src;
+	aml_size rows = src.GetRowCount();
+	aml_size cols = src.GetColCount();
+	matrixd  matRet= eye(rows);
+
+
+	for(aml_count i = 0; i < rows; i++)
+	{
+		if(matTemp(i, i) == 0)
+		{
+			for( aml_count row = 0; row < rows; row++)
+			{
+				if(matTemp(i, row) != 0)
+				{
+					swaprows(matTemp, i, row);
+					swaprows(matRet, i, row);
+					break;
+				}
+			}
+		}
+	}
+	printmat(matRet, " Return Matrix");
+	printmat(matTemp, " Temp Matrix");
+
+	for(aml_count i = 0; i < rows; i++)
+	{
+		aml_double num = matRet(i, i);
+
+		for(aml_count j = 0; j < cols; j++ )
+		{
+			matTemp(i, j) /= num;
+			matRet(i, j) /= num;
+		}
+
+		for(aml_count k = 0; k < rows ; k++)
+		{
+			if(k != i)
+			{
+				aml_double leading = matTemp(k, i);
+
+				for(aml_count j = 0; j < cols; j++)
+				{
+					matTemp(k, j) -= matTemp(i, j) * leading;
+					matRet(k, j) -= matRet(i, j) * leading;
+				}
+			}
+		}
+	//	printmat(matRet, " Return Matrix");
+		printmat(matTemp, " Temp Matrix");
+	}
+	printmat(matRet, " Return Matrix");
+	printmat(matTemp, " Temp Matrix");
